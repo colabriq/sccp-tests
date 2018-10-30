@@ -6,9 +6,9 @@ read -r -d '' DATA <<'EOF'
   xmlns:ns1="http://xmlns.com/foaf/0.1/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
-  <rdf:Description rdf:about="https://ijmad.me/">
-    <ns1:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</ns1:age>
-    <ns1:name>Ian Maddison</ns1:name>
+  <rdf:Description rdf:about="https://twitter.com/jsmith76">
+    <ns1:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</ns1:age>
+    <ns1:name>John Smith</ns1:name>
   </rdf:Description>
 </rdf:RDF>
 
