@@ -3,8 +3,8 @@
 read -r -d '' DATA <<'EOF'
 
 INSERT DATA { 
-  <https://ijmad.me/>  foaf:name 'Ian Maddison' .
-  <https://ijmad.me/>  foaf:age 35
+  <https://twitter.com/ijmad8x>  foaf:name 'Ian Maddison'.
+  <https://twitter.com/ijmad8x>  foaf:age 35
 }
 
 EOF

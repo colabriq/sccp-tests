@@ -2,9 +2,9 @@
 
 read -r -d '' DATA <<'EOF'
 
-INSERT DATA { 
-  <https://ijmad.me/>  foaf:name 'Ian Maddison' .
-  <https://ijmad.me/>  foaf:age 35
+DELETE DATA { 
+  <https://twitter.com/abcd>  foaf:name 'Alice Bobbit' .
+  <https://twitter.com/abcd>  foaf:age 32
 }
 
 EOF
