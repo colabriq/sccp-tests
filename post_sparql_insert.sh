@@ -2,6 +2,8 @@
 
 read -r -d '' DATA <<'EOF'
 
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+
 INSERT DATA { 
   <https://twitter.com/ijmad8x>  foaf:name 'Ian Maddison'.
   <https://twitter.com/ijmad8x>  foaf:age 35
