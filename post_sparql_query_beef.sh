@@ -32,5 +32,5 @@ curl -v \
   -H "Content-Type: application/sparql-query" \
   -X POST \
   -d "$DATA" \
-  "http://localhost:8155/sparql"
+  "http://localhost:8081/sparql"
   

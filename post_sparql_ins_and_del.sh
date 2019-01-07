@@ -23,5 +23,5 @@ curl -v \
   -H "Content-Type: application/sparql-update" \
   -X POST \
   -d "$DATA" \
-  "http://localhost:8080/sparql"
+  "http://localhost:8081/sparql"
   
