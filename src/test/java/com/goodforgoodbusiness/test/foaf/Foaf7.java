@@ -1,7 +1,7 @@
 package com.goodforgoodbusiness.test.foaf;
 
-import static com.goodforgoodbusiness.test.foaf.Foaf.ENDPOINT_A;
-import static com.goodforgoodbusiness.test.foaf.Foaf.ENDPOINT_B;
+import static com.goodforgoodbusiness.test.foaf.Foaf.ENDPOINT_1;
+import static com.goodforgoodbusiness.test.foaf.Foaf.ENDPOINT_2;
 import static com.goodforgoodbusiness.test.foaf.Foaf.newRunner;
 import static com.goodforgoodbusiness.test.foaf.Foaf.shareKeys;
 
@@ -9,7 +9,7 @@ public class Foaf7 {
 	public static void main(String[] args) throws Exception {
 		// run with separate runners, as if the system was restarted.
 		
-		newRunner(ENDPOINT_A).update(
+		newRunner(ENDPOINT_1).update(
 			"PREFIX foaf: <http://xmlns.com/foaf/0.1/>                    \n" + 
 			"INSERT DATA {                                                \n" + 
 			"  <https://twitter.com/ijmad8x>  foaf:name 'Ian Maddison'.   \n" + 
@@ -18,9 +18,9 @@ public class Foaf7 {
 		);
 		
 		// share with a more specific share key
-		shareKeys(ENDPOINT_A, ENDPOINT_B, "https://twitter.com/ijmad8x", "http://xmlns.com/foaf/0.1/name", "Ian Maddison");
+		shareKeys(ENDPOINT_1, ENDPOINT_2, "https://twitter.com/ijmad8x", "http://xmlns.com/foaf/0.1/name", "Ian Maddison");
 		
-		newRunner(ENDPOINT_B).query(
+		newRunner(ENDPOINT_2).query(
 			"SELECT ?name                                                           \n" + 
 			"WHERE {                                                                \n" + 
 			"  <https://twitter.com/ijmad8x> <http://xmlns.com/foaf/0.1/name> ?name \n" + 
@@ -31,7 +31,7 @@ public class Foaf7 {
 		
 		// update from the A side - B should see this because claim contains triple 'Ian Maddison'.
 		
-		newRunner(ENDPOINT_A).update(
+		newRunner(ENDPOINT_1).update(
 			"PREFIX foaf:  <http://xmlns.com/foaf/0.1/>  \n" + 
 			"DELETE {                                    \n" + 
 			"  ?person foaf:name 'Ian Maddison'          \n" + 
@@ -44,7 +44,7 @@ public class Foaf7 {
 			"}                                           \n"
 		);
 
-		newRunner(ENDPOINT_B).query(
+		newRunner(ENDPOINT_2).query(
 			"SELECT ?name                                                           \n" + 
 			"WHERE {                                                                \n" + 
 			"  <https://twitter.com/ijmad8x> <http://xmlns.com/foaf/0.1/name> ?name \n" + 
@@ -55,7 +55,7 @@ public class Foaf7 {
 		
 		// another update from the A side 
 		
-		newRunner(ENDPOINT_A).update(
+		newRunner(ENDPOINT_1).update(
 			"PREFIX foaf:  <http://xmlns.com/foaf/0.1/>  \n" + 
 			"DELETE {                                    \n" + 
 			"  ?person foaf:name 'Hana Ijecko'           \n" + 
@@ -70,7 +70,7 @@ public class Foaf7 {
 		
 		// B should not see this one as only 'Ian Maddison' is shared.
 		
-		newRunner(ENDPOINT_B).query(
+		newRunner(ENDPOINT_2).query(
 			"SELECT ?name                                                           \n" + 
 			"WHERE {                                                                \n" + 
 			"  <https://twitter.com/ijmad8x> <http://xmlns.com/foaf/0.1/name> ?name \n" + 
@@ -81,11 +81,11 @@ public class Foaf7 {
 		
 		// share a wider key
 		
-		shareKeys(ENDPOINT_A, ENDPOINT_B, "https://twitter.com/ijmad8x", "http://xmlns.com/foaf/0.1/name", null);
+		shareKeys(ENDPOINT_1, ENDPOINT_2, "https://twitter.com/ijmad8x", "http://xmlns.com/foaf/0.1/name", null);
 		
 		// B should now see Kalana Limano
 		
-		newRunner(ENDPOINT_B).query(
+		newRunner(ENDPOINT_2).query(
 				"SELECT ?name                                                           \n" + 
 				"WHERE {                                                                \n" + 
 				"  <https://twitter.com/ijmad8x> <http://xmlns.com/foaf/0.1/name> ?name \n" + 

@@ -15,15 +15,20 @@ import com.goodforgoodbusiness.shared.URIModifier;
 import com.goodforgoodbusiness.webapp.ContentType;
 
 public class Foaf {
-	public static String ENGINE_A = "engine-a.properties";
-	public static String ENDPOINT_A = "data-a.properties";
+	public static String ENGINE_1 = "dual/engine-1.properties";
+	public static String ENDPOINT_1 = "dual/endpoint-1.properties";
 	
-	public static String ENGINE_B = "engine-b.properties";
-	public static String ENDPOINT_B = "data-b.properties";
+	public static String ENGINE_2 = "dual/engine-1.properties";
+	public static String ENDPOINT_2 = "dual/endpoint-1.properties";
 	
 	public static RDFRunner newRunner(String configFile) throws Exception {
 		var injector1 = createInjector(new EndpointModule(loadConfig(Foaf.class, configFile)));
 		return injector1.getInstance(RDFRunner.class);
+	}
+	
+	public static int getPort(String configFile) throws Exception {
+		var config = loadConfig(Foaf.class, configFile);
+		return config.getInt("port");
 	}
 	
 	public static void shareKeys(String from, String to, String sub, String pre, String obj) throws Exception {

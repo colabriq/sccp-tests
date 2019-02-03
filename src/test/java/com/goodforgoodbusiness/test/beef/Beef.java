@@ -1,11 +1,6 @@
 package com.goodforgoodbusiness.test.beef;
 
-import static com.goodforgoodbusiness.shared.ConfigLoader.loadConfig;
-import static com.google.inject.Guice.createInjector;
-
-import com.goodforgoodbusiness.endpoint.EndpointModule;
-import com.goodforgoodbusiness.endpoint.rdf.RDFPreloader;
-import com.goodforgoodbusiness.endpoint.rdf.RDFRunner;
+import com.goodforgoodbusiness.utils.RDFClient;
 
 public class Beef {
 	private static final String COW_QUERY = 
@@ -31,12 +26,7 @@ public class Beef {
 		    "}";
 	
 	public static void main(String[] args) throws Exception {
-		var injector = createInjector(new EndpointModule(loadConfig(Beef.class, "beef.properties")));
-		injector.getInstance(RDFPreloader.class).preload();
-		
-		System.out.println(
-			injector.getInstance(RDFRunner.class)
-				.query(COW_QUERY, "application/xml")
-		);
+		var result = new RDFClient(8081).query(COW_QUERY);
+		System.out.println(result);
 	}
 }

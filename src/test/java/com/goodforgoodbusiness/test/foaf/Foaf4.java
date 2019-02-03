@@ -1,13 +1,13 @@
 package com.goodforgoodbusiness.test.foaf;
 
-import static com.goodforgoodbusiness.test.foaf.Foaf.ENDPOINT_A;
-import static com.goodforgoodbusiness.test.foaf.Foaf.ENDPOINT_B;
+import static com.goodforgoodbusiness.test.foaf.Foaf.ENDPOINT_1;
+import static com.goodforgoodbusiness.test.foaf.Foaf.ENDPOINT_2;
 import static com.goodforgoodbusiness.test.foaf.Foaf.newRunner;
 import static com.goodforgoodbusiness.test.foaf.Foaf.shareKeys;
 
 public class Foaf4 {
 	public static void main(String[] args) throws Exception {
-		newRunner(ENDPOINT_A).update(
+		newRunner(ENDPOINT_1).update(
 			"PREFIX foaf: <http://xmlns.com/foaf/0.1/>                    \n" + 
 			"INSERT DATA {                                                \n" + 
 			"  <https://twitter.com/ijmad8x>  foaf:name 'Ian Maddison'.   \n" + 
@@ -15,9 +15,9 @@ public class Foaf4 {
 			"}                                                            \n" 
 		);
 		
-		shareKeys(ENDPOINT_A, ENDPOINT_B, "https://twitter.com/ijmad8x", "http://xmlns.com/foaf/0.1/name", null);
+		shareKeys(ENDPOINT_1, ENDPOINT_2, "https://twitter.com/ijmad8x", "http://xmlns.com/foaf/0.1/name", null);
 		
-		newRunner(ENDPOINT_B).query(
+		newRunner(ENDPOINT_2).query(
 			"SELECT ?name                                                           \n" + 
 			"WHERE {                                                                \n" + 
 			"  <https://twitter.com/ijmad8x> <http://xmlns.com/foaf/0.1/name> ?name \n" + 
@@ -28,7 +28,7 @@ public class Foaf4 {
 		
 		// update from the B side
 		
-		newRunner(ENDPOINT_B).update(
+		newRunner(ENDPOINT_2).update(
 			"PREFIX foaf:  <http://xmlns.com/foaf/0.1/>  \n" + 
 			"DELETE {                                    \n" + 
 			"  ?person foaf:name 'Ian Maddison'          \n" + 
@@ -41,7 +41,7 @@ public class Foaf4 {
 			"}                                           \n"
 		);
 		
-		newRunner(ENDPOINT_B).query(
+		newRunner(ENDPOINT_2).query(
 			"SELECT ?name                                                           \n" + 
 			"WHERE {                                                                \n" + 
 			"  <https://twitter.com/ijmad8x> <http://xmlns.com/foaf/0.1/name> ?name \n" + 
@@ -52,7 +52,7 @@ public class Foaf4 {
 		
 		// the A side should not see this update
 		
-		newRunner(ENDPOINT_A).query(
+		newRunner(ENDPOINT_1).query(
 			"SELECT ?name                                                           \n" + 
 			"WHERE {                                                                \n" + 
 			"  <https://twitter.com/ijmad8x> <http://xmlns.com/foaf/0.1/name> ?name \n" + 
@@ -63,11 +63,11 @@ public class Foaf4 {
 		
 		// share the updates from B back to A
 		
-		shareKeys(ENDPOINT_B, ENDPOINT_A, "https://twitter.com/ijmad8x", "http://xmlns.com/foaf/0.1/name", null);
+		shareKeys(ENDPOINT_2, ENDPOINT_1, "https://twitter.com/ijmad8x", "http://xmlns.com/foaf/0.1/name", null);
 		
 		// the A side should now see Hannah Ijecko
 		
-		newRunner(ENDPOINT_A).query(
+		newRunner(ENDPOINT_1).query(
 			"SELECT ?name                                                           \n" + 
 			"WHERE {                                                                \n" + 
 			"  <https://twitter.com/ijmad8x> <http://xmlns.com/foaf/0.1/name> ?name \n" + 

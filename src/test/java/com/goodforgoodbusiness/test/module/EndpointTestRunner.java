@@ -11,7 +11,7 @@ import com.goodforgoodbusiness.webapp.Webapp;
 public class EndpointTestRunner {
 	public static void main(String[] args) throws Exception {
 		var config = loadConfig(EndpointTestRunner.class, args[0]);
-		LogConfigurer.init(EndpointTestRunner.class, config.getString("log.properties", "log4j.debug.properties"));
+		LogConfigurer.init(EndpointTestRunner.class, config.getString("log.properties", "log4j.info.properties"));
 		
 		var injector = createInjector(new EndpointModule(config));
 		

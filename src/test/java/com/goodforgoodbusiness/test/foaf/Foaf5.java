@@ -1,11 +1,11 @@
 package com.goodforgoodbusiness.test.foaf;
 
-import static com.goodforgoodbusiness.test.foaf.Foaf.ENDPOINT_A;
+import static com.goodforgoodbusiness.test.foaf.Foaf.ENDPOINT_1;
 import static com.goodforgoodbusiness.test.foaf.Foaf.newRunner;
 
 public class Foaf5 {
 	public static void main(String[] args) throws Exception {
-		newRunner(ENDPOINT_A).update(
+		newRunner(ENDPOINT_1).update(
 			"PREFIX foaf: <http://xmlns.com/foaf/0.1/>                    \n" + 
 			"INSERT DATA {                                                \n" + 
 			"  <https://twitter.com/ijmad8x>  foaf:name 'Ian Maddison'.   \n" + 
@@ -13,7 +13,7 @@ public class Foaf5 {
 			"}                                                            \n" 
 		);
 		
-		newRunner(ENDPOINT_A).update(
+		newRunner(ENDPOINT_1).update(
 			"PREFIX foaf:  <http://xmlns.com/foaf/0.1/>  \n" + 
 			"DELETE {                                    \n" + 
 			"  ?person foaf:name 'Ian Maddison'          \n" + 
@@ -26,7 +26,7 @@ public class Foaf5 {
 			"}                                           \n"
 		);
 
-		newRunner(ENDPOINT_A).update(
+		newRunner(ENDPOINT_1).update(
 			"PREFIX foaf:  <http://xmlns.com/foaf/0.1/>  \n" + 
 			"DELETE {                                    \n" + 
 			"  ?person foaf:name 'Hana Ijecko'           \n" + 
@@ -39,7 +39,7 @@ public class Foaf5 {
 			"}                                           \n"
 		);
 		
-		newRunner(ENDPOINT_A).query(
+		newRunner(ENDPOINT_1).query(
 			"SELECT ?name                                                           \n" + 
 			"WHERE {                                                                \n" + 
 			"  <https://twitter.com/ijmad8x> <http://xmlns.com/foaf/0.1/name> ?name \n" + 

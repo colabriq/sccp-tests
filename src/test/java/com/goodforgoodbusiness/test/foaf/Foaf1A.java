@@ -1,13 +1,18 @@
 package com.goodforgoodbusiness.test.foaf;
 
 import static com.goodforgoodbusiness.test.foaf.Foaf.ENDPOINT_1;
+import static com.goodforgoodbusiness.test.foaf.Foaf.getPort;
 import static com.goodforgoodbusiness.test.foaf.Foaf.newRunner;
 
-public class Foaf2 {
+import com.goodforgoodbusiness.utils.RDFClient;
+
+public class Foaf1A {
 	public static void main(String[] args) throws Exception {
-		// run with separate runners, as if the system was restarted.
+		newRunner(ENDPOINT_1);
 		
-		newRunner(ENDPOINT_1).update(
+		var client = new RDFClient(getPort(ENDPOINT_1));
+		
+		var result1 = client.update(
 			"PREFIX foaf: <http://xmlns.com/foaf/0.1/>                    \n" + 
 			"INSERT DATA {                                                \n" + 
 			"  <https://twitter.com/ijmad8x>  foaf:name 'Ian Maddison'.   \n" + 
@@ -15,16 +20,18 @@ public class Foaf2 {
 			"}                                                            \n" 
 		);
 		
-		newRunner(ENDPOINT_1).query(
+		System.out.println(result1);
+		
+		var result2 = client.query(
 			"SELECT ?name                                                           \n" + 
 			"WHERE {                                                                \n" + 
 			"  <https://twitter.com/ijmad8x> <http://xmlns.com/foaf/0.1/name> ?name \n" + 
-			"}															            \n",
-			"application/xml",
-			System.out
+			"}															            \n"
 		);
 		
-		newRunner(ENDPOINT_1).update(
+		System.out.println(result2);
+		
+		var result3 = client.update(
 			"PREFIX foaf:  <http://xmlns.com/foaf/0.1/>  \n" + 
 			"DELETE {                                    \n" + 
 			"  ?person foaf:name 'Ian Maddison'          \n" + 
@@ -36,14 +43,16 @@ public class Foaf2 {
 			"  ?person foaf:name 'Ian Maddison'          \n" + 
 			"}                                           \n"
 		);
+
+		System.out.println(result3);
 		
-		newRunner(ENDPOINT_1).query(
+		var result4 = client.query(
 			"SELECT ?name                                                           \n" + 
 			"WHERE {                                                                \n" + 
 			"  <https://twitter.com/ijmad8x> <http://xmlns.com/foaf/0.1/name> ?name \n" + 
-			"}															            \n",
-			"application/xml",
-			System.out
+			"}															            \n"
 		);
+		
+		System.out.println(result4);
 	}
 }
