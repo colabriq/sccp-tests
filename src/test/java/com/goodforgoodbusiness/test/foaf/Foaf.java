@@ -9,21 +9,38 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpRequest.BodyPublishers;
 import java.net.http.HttpResponse.BodyHandlers;
 
+import org.apache.commons.configuration2.Configuration;
+
 import com.goodforgoodbusiness.endpoint.EndpointModule;
+import com.goodforgoodbusiness.endpoint.dht.ClaimCollector;
+import com.goodforgoodbusiness.endpoint.dht.DHTSubmitter;
 import com.goodforgoodbusiness.endpoint.rdf.RDFRunner;
+import com.goodforgoodbusiness.endpoint.route.dht.DHTSparqlRoute;
 import com.goodforgoodbusiness.shared.URIModifier;
+import com.goodforgoodbusiness.test.SparqlTester;
 import com.goodforgoodbusiness.webapp.ContentType;
 
 public class Foaf {
 	public static String ENGINE_1 = "dual/engine-1.properties";
 	public static String ENDPOINT_1 = "dual/endpoint-1.properties";
 	
-	public static String ENGINE_2 = "dual/engine-1.properties";
-	public static String ENDPOINT_2 = "dual/endpoint-1.properties";
+	public static String ENGINE_2 = "dual/engine-2.properties";
+	public static String ENDPOINT_2 = "dual/endpoint-2.properties";
 	
-	public static RDFRunner newRunner(String configFile) throws Exception {
-		var injector1 = createInjector(new EndpointModule(loadConfig(Foaf.class, configFile)));
-		return injector1.getInstance(RDFRunner.class);
+	public static Configuration getConfig(String configFile) throws Exception {
+		return loadConfig(Foaf.class, configFile);
+	}
+	
+	public static SparqlTester newRunner(String configFile) throws Exception {
+		var injector1 = createInjector(new EndpointModule(getConfig(configFile)));
+		
+		return new SparqlTester(
+			new DHTSparqlRoute(
+				injector1.getInstance(ClaimCollector.class),
+				injector1.getInstance(RDFRunner.class),
+				injector1.getInstance(DHTSubmitter.class)
+			)
+		);
 	}
 	
 	public static int getPort(String configFile) throws Exception {

@@ -6,7 +6,7 @@ import static com.goodforgoodbusiness.test.foaf.Foaf.newRunner;
 import static com.goodforgoodbusiness.test.foaf.Foaf.shareKeys;
 
 public class Foaf7 {
-	public static void main(String[] args) throws Exception {
+	public static void main(String[] args) throws Exception {		
 		// run with separate runners, as if the system was restarted.
 		
 		newRunner(ENDPOINT_1).update(
@@ -86,12 +86,12 @@ public class Foaf7 {
 		// B should now see Kalana Limano
 		
 		newRunner(ENDPOINT_2).query(
-				"SELECT ?name                                                           \n" + 
-				"WHERE {                                                                \n" + 
-				"  <https://twitter.com/ijmad8x> <http://xmlns.com/foaf/0.1/name> ?name \n" + 
-				"}															            \n",
-				"application/xml",
-				System.out
-			);
+			"SELECT ?name                                                           \n" + 
+			"WHERE {                                                                \n" + 
+			"  <https://twitter.com/ijmad8x> <http://xmlns.com/foaf/0.1/name> ?name \n" + 
+			"}															            \n",
+			"application/xml",
+			System.out
+		);
 	}
 }
