@@ -1,0 +1,20 @@
+# @link claim:causedBy 2018-01-01T0952Z_FARMER-0000000000_ship-cow.ttl
+# @link claim:causedBy 2018-01-01T1002Z_FARMER-0000000001_ship-cow.ttl
+# @link claim:causedBy 2018-01-01T1203Z_PROCESSOR-0000000001_accept-order.ttl
+@prefix com: <https://schemas.goodforgoodbusiness.com/common-operating-model/lite/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix var: <http://example.com/variables#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:uuid:47508541-5e1e-4b8e-92b8-ae6c5e7d2a4e> a com:Activity,
+        com:Shipment ;
+    com:consignee <urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee> ;
+    com:consigner <urn:uuid:ccd74098-7c85-451f-afb8-f81196980140> ;
+    com:fulfils <urn:uuid:e20e44fd-a279-4e68-bf62-907b1f45815c> ;
+    com:shipmentRef "PKG-0000000000" ;
+    com:shippedOn "2018-01-01T14:42:07+00:00"^^xsd:dateTime .
+
+<urn:uuid:e20e44fd-a279-4e68-bf62-907b1f45815c> com:fulfilledBy <urn:uuid:47508541-5e1e-4b8e-92b8-ae6c5e7d2a4e> .
+

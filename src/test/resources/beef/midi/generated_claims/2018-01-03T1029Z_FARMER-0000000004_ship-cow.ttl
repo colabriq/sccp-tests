@@ -1,0 +1,19 @@
+# @link claim:causedBy 2018-01-03T1029Z_FARMER-0000000004_register-cow.ttl
+# @link claim:causedBy 2018-01-03T1029Z_FARMER-0000000004_vaccinate-cow-bcg.ttl
+# @link claim:causedBy 2018-01-03T1029Z_FARMER-0000000004_accept-order.ttl
+@prefix com: <https://schemas.goodforgoodbusiness.com/common-operating-model/lite/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix var: <http://example.com/variables#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:uuid:60053baa-6f26-4510-a28d-dfea85c82620> com:fulfilledBy <urn:uuid:d1fbe56a-e322-4754-a1b1-49e125821035> .
+
+<urn:uuid:d1fbe56a-e322-4754-a1b1-49e125821035> a com:Activity,
+        com:Shipment ;
+    com:consignee <urn:uuid:ccd74098-7c85-451f-afb8-f81196980140> ;
+    com:consigner <urn:uuid:1a7df8d5-c294-42ea-a2d8-635fd6045a43> ;
+    com:fulfils <urn:uuid:60053baa-6f26-4510-a28d-dfea85c82620> ;
+    com:hasItem <urn:uuid:f5b9d421-5876-4d1c-9440-00a454bd6ef8> .
+

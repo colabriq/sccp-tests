@@ -1,0 +1,26 @@
+# @link claim:causedBy 2018-01-01T0813Z_FARMER-0000000005_ship-cow.ttl
+# @link claim:causedBy 2018-01-01T0901Z_FARMER-0000000005_ship-cow.ttl
+# @link claim:causedBy 2018-01-01T1017Z_FARMER-0000000006_ship-cow.ttl
+# @link claim:causedBy 2018-01-01T1126Z_FARMER-0000000000_ship-cow.ttl
+# @link claim:causedBy 2018-01-01T1211Z_FARMER-0000000003_ship-cow.ttl
+# @link claim:causedBy 2018-01-01T1345Z_FARMER-0000000001_ship-cow.ttl
+# @link claim:causedBy 2018-01-01T1448Z_FARMER-0000000001_ship-cow.ttl
+# @link claim:causedBy 2018-01-01T1551Z_FARMER-0000000002_ship-cow.ttl
+# @link claim:causedBy 2018-01-01T1647Z_FARMER-0000000001_ship-cow.ttl
+# @link claim:causedBy 2018-01-01T1756Z_FARMER-0000000000_ship-cow.ttl
+# @link claim:causedBy 2018-01-01T1834Z_FARMER-0000000002_ship-cow.ttl
+# @link claim:causedBy 2018-01-01T1614Z_PROCESSOR-0000000000_accept-order.ttl
+@prefix com: <https://schemas.goodforgoodbusiness.com/common-operating-model/lite/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix var: <http://example.com/variables#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:uuid:00668b2a-4113-4bcb-87f0-d38956ddfdde> a com:Activity,
+        com:Shipment ;
+    com:consignee <urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee> ;
+    com:consigner <urn:uuid:cb9d796b-ef82-4c9b-bb5f-f111f0dbb175> ;
+    com:fulfils <urn:uuid:cc7b246e-b182-48c1-81c0-b827172cc074> ;
+    com:usesItem <urn:uuid:b0aec155-2fe1-4a31-a6ce-6bce3952fe7e> .
+

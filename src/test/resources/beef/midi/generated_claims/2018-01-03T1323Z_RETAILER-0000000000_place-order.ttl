@@ -1,0 +1,19 @@
+@prefix com: <https://schemas.goodforgoodbusiness.com/common-operating-model/lite/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix var: <http://example.com/variables#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:uuid:d1d44639-ebe0-4553-b81a-a27f4b9d2afe> a com:Order ;
+    com:buyer <urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee> ;
+    com:buyerRef "PO-0000000011" ;
+    com:placedOn "2018-01-03T13:23:18+00:00"^^xsd:dateTime ;
+    com:quantity 18 ;
+    com:seller <urn:uuid:cb9d796b-ef82-4c9b-bb5f-f111f0dbb175> ;
+    com:unitPrice 3.644221e+00 .
+
+<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee> a com:Business .
+
+<urn:uuid:cb9d796b-ef82-4c9b-bb5f-f111f0dbb175> a com:Business .
+

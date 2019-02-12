@@ -1,0 +1,2461 @@
+[
+  {
+    "information_creator": "PROCESSOR-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/buyer>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/consignee>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/buyer>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/consignee>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/buyer>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/consignee>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/buyer>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/consignee>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/buyer>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/consignee>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/buyer>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/consignee>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/buyer>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/consignee>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/buyer>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/consignee>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/buyer>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/consignee>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/buyer>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/consignee>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/buyer>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/consignee>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/buyer>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/consignee>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/buyer>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/consignee>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/buyer>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/consignee>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/buyer>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/consignee>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/buyer>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/consignee>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/buyer>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/consignee>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/buyer>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/consignee>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/buyer>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/consignee>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/buyer>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/consignee>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/buyer>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/consignee>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/buyer>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/consignee>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/buyer>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/consignee>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/buyer>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/consignee>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/buyer>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/consignee>",
+        "o": "<urn:uuid:448c5299-b858-4eb1-bc55-0a7a6c04efee>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "s": "<urn:uuid:10f37037-2d73-4c02-aa45-feb94a1e066c>",
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/fulfilledBy>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "s": "<urn:uuid:62dcd280-d952-4f55-9fec-6baba551a002>",
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/fulfilledBy>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "s": "<urn:uuid:e20e44fd-a279-4e68-bf62-907b1f45815c>",
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/fulfilledBy>"
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "s": "<urn:uuid:e2e6b2cc-67f8-4d8f-ba8e-0933381e0fff>",
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/fulfilledBy>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000002",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000002",
+    "include_at_start": false,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000005",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000005",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000005",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000005",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000006",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000006",
+    "include_at_start": false,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000002",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000002",
+    "include_at_start": false,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000003",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000003",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000003",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000003",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000003",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000003",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000005",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000005",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000004",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000004",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000002",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000002",
+    "include_at_start": false,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000005",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000005",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000004",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000004",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000004",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000004",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000002",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000002",
+    "include_at_start": false,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000003",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000003",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000002",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000002",
+    "include_at_start": false,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000004",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000004",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000003",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000003",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000006",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000006",
+    "include_at_start": false,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000002",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000002",
+    "include_at_start": false,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000005",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000005",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000002",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000002",
+    "include_at_start": false,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000005",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000005",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000005",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000005",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000004",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000004",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000003",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000003",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000003",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000003",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000003",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000003",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000005",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000005",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000004",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000004",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000003",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000003",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000003",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000003",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000006",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000006",
+    "include_at_start": false,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000006",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000006",
+    "include_at_start": false,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000005",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000005",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000003",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000003",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000006",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000006",
+    "include_at_start": false,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000004",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000004",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000004",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000004",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000006",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000006",
+    "include_at_start": false,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000002",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000002",
+    "include_at_start": false,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000005",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000005",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000004",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000004",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000004",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000004",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000003",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000003",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000005",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000005",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000002",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000002",
+    "include_at_start": false,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000005",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000005",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000003",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000003",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000003",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000003",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000002",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000002",
+    "include_at_start": false,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000003",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000003",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000004",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000004",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000005",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000005",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000003",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000003",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000005",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000005",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000005",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000005",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000005",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000005",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000004",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000004",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000005",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000005",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000002",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000002",
+    "include_at_start": false,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000005",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000005",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000006",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000006",
+    "include_at_start": false,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000003",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000003",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000005",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000005",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000002",
+    "include_at_start": true,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species>",
+        "o": "\"Bos taurus\""
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000002",
+    "include_at_start": false,
+    "patterns": [
+      {
+        "p": "<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccination>"
+      }
+    ]
+  }
+]

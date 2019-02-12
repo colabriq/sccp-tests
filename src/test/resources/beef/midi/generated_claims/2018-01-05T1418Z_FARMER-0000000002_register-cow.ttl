@@ -1,0 +1,12 @@
+@prefix com: <https://schemas.goodforgoodbusiness.com/common-operating-model/lite/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix var: <http://example.com/variables#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:uuid:f217d3b7-562e-4c7c-b306-4b8dc3ee31bd> a com:Item ;
+    com:ain "IE 560675 546910" ;
+    com:fromFarm <urn:uuid:c90cf34c-b34f-4130-8db2-a2b198ecae52> ;
+    com:species "Bos taurus" .
+

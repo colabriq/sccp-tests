@@ -1,0 +1,13 @@
+# @link claim:causedBy 2018-01-03T1326Z_PROCESSOR-0000000001_confirm-order.ttl
+@prefix com: <https://schemas.goodforgoodbusiness.com/common-operating-model/lite/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix var: <http://example.com/variables#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:uuid:e1819000-c352-4768-8e42-f6dc19c0d5dc> a com:Order ;
+    com:acceptedOn "2018-01-03T13:26:59+00:00"^^xsd:dateTime ;
+    com:buyer <urn:uuid:ccd74098-7c85-451f-afb8-f81196980140> ;
+    com:seller <urn:uuid:0cd42263-2603-4eac-9d45-bb4f48deeee9> .
+

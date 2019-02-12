@@ -1,0 +1,14 @@
+# @link claim:causedBy 2018-01-05T1823Z_FARMER-0000000001_register-cow.ttl
+@prefix com: <https://schemas.goodforgoodbusiness.com/common-operating-model/lite/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix var: <http://example.com/variables#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:uuid:5d227ce5-6552-4be1-9e0f-04f8cff8f1fb> a com:Item ;
+    com:ain "UK 677449 586082" ;
+    com:fromFarm <urn:uuid:0cd42263-2603-4eac-9d45-bb4f48deeee9> ;
+    com:vaccination [ a com:Vaccination ;
+            com:vaccine "BCG" ] .
+

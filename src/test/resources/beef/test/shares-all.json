@@ -1,0 +1,26 @@
+[
+  {
+    "information_creator": "FARMER-0000000000",
+    "include_at_start": true,
+    "patterns": [
+      {
+      }
+    ]
+  },
+  {
+    "information_creator": "FARMER-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+      }
+    ]
+  },
+  {
+    "information_creator": "PROCESSOR-0000000001",
+    "include_at_start": true,
+    "patterns": [
+      {
+      }
+    ]
+  }
+]
