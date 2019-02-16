@@ -12,7 +12,7 @@ import java.net.http.HttpResponse.BodyHandlers;
 import org.apache.commons.configuration2.Configuration;
 
 import com.goodforgoodbusiness.endpoint.EndpointModule;
-import com.goodforgoodbusiness.endpoint.dht.ClaimCollector;
+import com.goodforgoodbusiness.endpoint.dht.ContainerCollector;
 import com.goodforgoodbusiness.endpoint.dht.DHTSubmitter;
 import com.goodforgoodbusiness.endpoint.rdf.RDFRunner;
 import com.goodforgoodbusiness.endpoint.route.dht.DHTSparqlRoute;
@@ -36,7 +36,7 @@ public class Foaf {
 		
 		return new SparqlTester(
 			new DHTSparqlRoute(
-				injector1.getInstance(ClaimCollector.class),
+				injector1.getInstance(ContainerCollector.class),
 				injector1.getInstance(RDFRunner.class),
 				injector1.getInstance(DHTSubmitter.class)
 			)
