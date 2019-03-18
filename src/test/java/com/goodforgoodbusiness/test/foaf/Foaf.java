@@ -15,12 +15,15 @@ import com.goodforgoodbusiness.endpoint.EndpointModule;
 import com.goodforgoodbusiness.endpoint.dht.ContainerCollector;
 import com.goodforgoodbusiness.endpoint.dht.DHTSubmitter;
 import com.goodforgoodbusiness.endpoint.rdf.RDFRunner;
+import com.goodforgoodbusiness.endpoint.route.SparqlRoute;
 import com.goodforgoodbusiness.endpoint.route.dht.DHTSparqlRoute;
 import com.goodforgoodbusiness.shared.URIModifier;
 import com.goodforgoodbusiness.test.SparqlTester;
 import com.goodforgoodbusiness.webapp.ContentType;
 
 public class Foaf {
+	public static String ENDPOINT_ONLY = "endpoint-only/empty.properties";
+	
 	public static String ENGINE_1 = "dual/engine-1.properties";
 	public static String ENDPOINT_1 = "dual/endpoint-1.properties";
 	
@@ -32,16 +35,28 @@ public class Foaf {
 	}
 	
 	public static SparqlTester newRunner(String configFile) throws Exception {
-		var injector1 = createInjector(new EndpointModule(getConfig(configFile)));
+		var config = getConfig(configFile);
+		var injector1 = createInjector(new EndpointModule(config));
 		
-		return new SparqlTester(
-			new DHTSparqlRoute(
-				injector1.getInstance(ContainerCollector.class),
-				injector1.getInstance(RDFRunner.class),
-				injector1.getInstance(DHTSubmitter.class)
-			)
-		);
+		if (config.getBoolean("dht.enabled")) {
+			return new SparqlTester(
+				new DHTSparqlRoute(
+					injector1.getInstance(ContainerCollector.class),
+					injector1.getInstance(RDFRunner.class),
+					injector1.getInstance(DHTSubmitter.class)
+				)
+			);
+		}
+		else {
+			return new SparqlTester(
+				new SparqlRoute(
+					injector1.getInstance(RDFRunner.class)
+				)
+			);
+		}
 	}
+		
+
 	
 	public static int getPort(String configFile) throws Exception {
 		var config = loadConfig(Foaf.class, configFile);
