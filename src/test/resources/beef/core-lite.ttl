@@ -1,0 +1,312 @@
+@prefix : <https://schemas.goodforgoodbusiness.com/common-operating-model/lite/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://schemas.goodforgoodbusiness.com/common-operating-model/lite/> .
+
+<https://schemas.goodforgoodbusiness.com/common-operating-model/lite/> rdf:type owl:Ontology .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/date
+<http://purl.org/dc/elements/1.1/date> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://schemas.goodforgoodbusiness.com/common-operating-model/lite/buyer
+:buyer rdf:type owl:ObjectProperty ;
+       rdfs:domain :Order ;
+       rdfs:range :Business ;
+       <http://purl.org/dc/elements/1.1/creator> "Joe Geldart"^^xsd:string ;
+       <http://purl.org/dc/elements/1.1/date> "2018-11-29T10:25:22Z"^^xsd:dateTime .
+
+
+###  https://schemas.goodforgoodbusiness.com/common-operating-model/lite/consignee
+:consignee rdf:type owl:ObjectProperty ;
+           owl:inverseOf :received ;
+           rdfs:domain :Shipment ;
+           rdfs:range :Business ;
+           <http://purl.org/dc/elements/1.1/creator> "Joe Geldart"^^xsd:string ;
+           <http://purl.org/dc/elements/1.1/date> "2018-11-29T10:38:20Z"^^xsd:dateTime .
+
+
+###  https://schemas.goodforgoodbusiness.com/common-operating-model/lite/consigner
+:consigner rdf:type owl:ObjectProperty ;
+           owl:inverseOf :sent ;
+           rdfs:domain :Shipment ;
+           rdfs:range :Business ;
+           <http://purl.org/dc/elements/1.1/creator> "Joe Geldart"^^xsd:string ;
+           <http://purl.org/dc/elements/1.1/date> "2018-11-29T10:37:43Z"^^xsd:dateTime .
+
+
+###  https://schemas.goodforgoodbusiness.com/common-operating-model/lite/fromFarm
+:fromFarm rdf:type owl:ObjectProperty ;
+          rdfs:domain :Item ;
+          rdfs:range :Business ;
+          <http://purl.org/dc/elements/1.1/creator> "Joe Geldart"^^xsd:string ;
+          <http://purl.org/dc/elements/1.1/date> "2018-11-29T22:34:16Z"^^xsd:dateTime .
+
+
+###  https://schemas.goodforgoodbusiness.com/common-operating-model/lite/fulfilledBy
+:fulfilledBy rdf:type owl:ObjectProperty ;
+             owl:inverseOf :fulfils ;
+             rdfs:domain :Order ;
+             rdfs:range :Shipment ;
+             <http://purl.org/dc/elements/1.1/creator> "Joe Geldart"^^xsd:string ;
+             <http://purl.org/dc/elements/1.1/date> "2018-11-29T10:22:38Z"^^xsd:dateTime .
+
+
+###  https://schemas.goodforgoodbusiness.com/common-operating-model/lite/fulfils
+:fulfils rdf:type owl:ObjectProperty ;
+         rdfs:domain :Shipment ;
+         rdfs:range :Order ;
+         <http://purl.org/dc/elements/1.1/creator> "Joe Geldart"^^xsd:string ;
+         <http://purl.org/dc/elements/1.1/date> "2018-11-29T10:23:31Z"^^xsd:dateTime .
+
+
+###  https://schemas.goodforgoodbusiness.com/common-operating-model/lite/items
+:items rdf:type owl:ObjectProperty ;
+       owl:inverseOf :product ;
+       rdfs:domain :Product ;
+       rdfs:range :Item ;
+       <http://purl.org/dc/elements/1.1/creator> "Joe Geldart"^^xsd:string ;
+       <http://purl.org/dc/elements/1.1/date> "2018-11-29T10:20:42Z"^^xsd:dateTime .
+
+
+###  https://schemas.goodforgoodbusiness.com/common-operating-model/lite/lineItem
+:lineItem rdf:type owl:ObjectProperty ;
+          owl:inverseOf :order ;
+          rdfs:domain :Order ;
+          rdfs:range :OrderLineItem ;
+          <http://purl.org/dc/elements/1.1/creator> "Joe Geldart"^^xsd:string ;
+          <http://purl.org/dc/elements/1.1/date> "2018-11-29T10:19:27Z"^^xsd:dateTime .
+
+
+###  https://schemas.goodforgoodbusiness.com/common-operating-model/lite/order
+:order rdf:type owl:ObjectProperty ;
+       rdfs:domain :OrderLineItem ;
+       rdfs:range :Order ;
+       <http://purl.org/dc/elements/1.1/creator> "Joe Geldart"^^xsd:string ;
+       <http://purl.org/dc/elements/1.1/date> "2018-11-29T10:20:04Z"^^xsd:dateTime .
+
+
+###  https://schemas.goodforgoodbusiness.com/common-operating-model/lite/orderedProduct
+:orderedProduct rdf:type owl:ObjectProperty ;
+                owl:inverseOf :productOrderLineItems ;
+                rdfs:domain :OrderLineItem ;
+                rdfs:range :Product ;
+                <http://purl.org/dc/elements/1.1/creator> "Joe Geldart"^^xsd:string ;
+                <http://purl.org/dc/elements/1.1/date> "2018-11-29T10:18:47Z"^^xsd:dateTime .
+
+
+###  https://schemas.goodforgoodbusiness.com/common-operating-model/lite/product
+:product rdf:type owl:ObjectProperty ;
+         rdfs:domain :Item ;
+         rdfs:range :Product ;
+         <http://purl.org/dc/elements/1.1/creator> "Joe Geldart"^^xsd:string ;
+         <http://purl.org/dc/elements/1.1/date> "2018-11-29T10:17:26Z"^^xsd:dateTime .
+
+
+###  https://schemas.goodforgoodbusiness.com/common-operating-model/lite/productOrderLineItems
+:productOrderLineItems rdf:type owl:ObjectProperty ;
+                       rdfs:domain :Product ;
+                       rdfs:range :OrderLineItem ;
+                       <http://purl.org/dc/elements/1.1/creator> "Joe Geldart"^^xsd:string ;
+                       <http://purl.org/dc/elements/1.1/date> "2018-11-29T10:21:32Z"^^xsd:dateTime .
+
+
+###  https://schemas.goodforgoodbusiness.com/common-operating-model/lite/received
+:received rdf:type owl:ObjectProperty ;
+          rdfs:domain :Business ;
+          rdfs:range :Shipment ;
+          <http://purl.org/dc/elements/1.1/creator> "Joe Geldart"^^xsd:string ;
+          <http://purl.org/dc/elements/1.1/date> "2018-11-29T10:41:05Z"^^xsd:dateTime .
+
+
+###  https://schemas.goodforgoodbusiness.com/common-operating-model/lite/seller
+:seller rdf:type owl:ObjectProperty ;
+        rdfs:domain :Order ;
+        rdfs:range :Business ;
+        <http://purl.org/dc/elements/1.1/creator> "Joe Geldart"^^xsd:string ;
+        <http://purl.org/dc/elements/1.1/date> "2018-11-29T10:25:54Z"^^xsd:dateTime .
+
+
+###  https://schemas.goodforgoodbusiness.com/common-operating-model/lite/sent
+:sent rdf:type owl:ObjectProperty ;
+      rdfs:domain :Business ;
+      rdfs:range :Shipment ;
+      <http://purl.org/dc/elements/1.1/creator> "Joe Geldart"^^xsd:string ;
+      <http://purl.org/dc/elements/1.1/date> "2018-11-29T10:41:34Z"^^xsd:dateTime .
+
+
+###  https://schemas.goodforgoodbusiness.com/common-operating-model/lite/usesItem
+:usesItem rdf:type owl:ObjectProperty ;
+          rdfs:domain :Shipment ;
+          rdfs:range :Item ;
+          <http://purl.org/dc/elements/1.1/creator> "Joe Geldart"^^xsd:string ;
+          <http://purl.org/dc/elements/1.1/date> "2018-11-29T22:33:14Z"^^xsd:dateTime .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  https://schemas.goodforgoodbusiness.com/common-operating-model/lite/acceptedOn
+:acceptedOn rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Order ;
+            rdfs:range xsd:dateTime ;
+            <http://purl.org/dc/elements/1.1/creator> "Joe Geldart"^^xsd:string ;
+            <http://purl.org/dc/elements/1.1/date> "2018-11-29T22:30:05Z"^^xsd:dateTime .
+
+
+###  https://schemas.goodforgoodbusiness.com/common-operating-model/lite/ain
+:ain rdf:type owl:DatatypeProperty ;
+     rdfs:domain :Item ;
+     rdfs:range xsd:string ;
+     <http://purl.org/dc/elements/1.1/creator> "Joe Geldart"^^xsd:string ;
+     <http://purl.org/dc/elements/1.1/date> "2018-11-29T22:28:19Z"^^xsd:dateTime .
+
+
+###  https://schemas.goodforgoodbusiness.com/common-operating-model/lite/buyerRef
+:buyerRef rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Order ;
+          rdfs:range xsd:string ;
+          <http://purl.org/dc/elements/1.1/creator> "Joe Geldart"^^xsd:string ;
+          <http://purl.org/dc/elements/1.1/date> "2018-11-29T22:32:27Z"^^xsd:dateTime .
+
+
+###  https://schemas.goodforgoodbusiness.com/common-operating-model/lite/confirmedOn
+:confirmedOn rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Order ;
+             rdfs:range xsd:dateTime ;
+             <http://purl.org/dc/elements/1.1/creator> "Joe Geldart"^^xsd:string ;
+             <http://purl.org/dc/elements/1.1/date> "2018-11-29T22:29:41Z"^^xsd:dateTime .
+
+
+###  https://schemas.goodforgoodbusiness.com/common-operating-model/lite/placedOn
+:placedOn rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Order ;
+          rdfs:range xsd:dateTime ;
+          <http://purl.org/dc/elements/1.1/creator> "Joe Geldart"^^xsd:string ;
+          <http://purl.org/dc/elements/1.1/date> "2018-11-29T22:29:12Z"^^xsd:dateTime .
+
+
+###  https://schemas.goodforgoodbusiness.com/common-operating-model/lite/quantity
+:quantity rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Order ;
+          rdfs:range xsd:decimal ;
+          <http://purl.org/dc/elements/1.1/creator> "Joe Geldart"^^xsd:string ;
+          <http://purl.org/dc/elements/1.1/date> "2018-11-29T22:31:30Z"^^xsd:dateTime .
+
+
+###  https://schemas.goodforgoodbusiness.com/common-operating-model/lite/shipmentRef
+:shipmentRef rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Shipment ;
+             rdfs:range xsd:string ;
+             <http://purl.org/dc/elements/1.1/creator> "Joe Geldart"^^xsd:string ;
+             <http://purl.org/dc/elements/1.1/date> "2018-11-29T22:50:49Z"^^xsd:dateTime .
+
+
+###  https://schemas.goodforgoodbusiness.com/common-operating-model/lite/shippedOn
+:shippedOn rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Order ;
+           rdfs:range xsd:dateTime ;
+           <http://purl.org/dc/elements/1.1/creator> "Joe Geldart"^^xsd:string ;
+           <http://purl.org/dc/elements/1.1/date> "2018-11-29T22:30:52Z"^^xsd:dateTime .
+
+
+###  https://schemas.goodforgoodbusiness.com/common-operating-model/lite/species
+:species rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Item ;
+         rdfs:range xsd:string ;
+         <http://purl.org/dc/elements/1.1/creator> "Joe Geldart"^^xsd:string ;
+         <http://purl.org/dc/elements/1.1/date> "2018-11-29T22:28:44Z"^^xsd:dateTime .
+
+
+###  https://schemas.goodforgoodbusiness.com/common-operating-model/lite/unitPrice
+:unitPrice rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Order ;
+           rdfs:range xsd:decimal ;
+           <http://purl.org/dc/elements/1.1/creator> "Joe Geldart"^^xsd:string ;
+           <http://purl.org/dc/elements/1.1/date> "2018-11-29T22:31:11Z"^^xsd:dateTime .
+
+
+###  https://schemas.goodforgoodbusiness.com/common-operating-model/lite/vaccine
+:vaccine rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Vaccination ;
+         rdfs:range xsd:string ;
+         <http://purl.org/dc/elements/1.1/creator> "Joe Geldart"^^xsd:string ;
+         <http://purl.org/dc/elements/1.1/date> "2018-11-29T22:33:44Z"^^xsd:dateTime .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://schemas.goodforgoodbusiness.com/common-operating-model/lite/Activity
+:Activity rdf:type owl:Class ;
+          <http://purl.org/dc/elements/1.1/creator> "Joe Geldart"^^xsd:string ;
+          <http://purl.org/dc/elements/1.1/date> "2018-11-29T10:12:10Z"^^xsd:dateTime .
+
+
+###  https://schemas.goodforgoodbusiness.com/common-operating-model/lite/Batch
+:Batch rdf:type owl:Class ;
+       <http://purl.org/dc/elements/1.1/creator> "Joe Geldart"^^xsd:string ;
+       <http://purl.org/dc/elements/1.1/date> "2018-11-29T10:40:31Z"^^xsd:dateTime .
+
+
+###  https://schemas.goodforgoodbusiness.com/common-operating-model/lite/Business
+:Business rdf:type owl:Class ;
+          <http://purl.org/dc/elements/1.1/creator> "Joe Geldart"^^xsd:string ;
+          <http://purl.org/dc/elements/1.1/date> "2018-11-29T10:24:15Z"^^xsd:dateTime .
+
+
+###  https://schemas.goodforgoodbusiness.com/common-operating-model/lite/Item
+:Item rdf:type owl:Class ;
+      <http://purl.org/dc/elements/1.1/creator> "Joe Geldart"^^xsd:string ;
+      <http://purl.org/dc/elements/1.1/date> "2018-11-29T10:17:04Z"^^xsd:dateTime .
+
+
+###  https://schemas.goodforgoodbusiness.com/common-operating-model/lite/Order
+:Order rdf:type owl:Class ;
+       <http://purl.org/dc/elements/1.1/creator> "Joe Geldart"^^xsd:string ;
+       <http://purl.org/dc/elements/1.1/date> "2018-11-29T10:02:02Z"^^xsd:dateTime .
+
+
+###  https://schemas.goodforgoodbusiness.com/common-operating-model/lite/OrderLineItem
+:OrderLineItem rdf:type owl:Class ;
+               <http://purl.org/dc/elements/1.1/creator> "Joe Geldart"^^xsd:string ;
+               <http://purl.org/dc/elements/1.1/date> "2018-11-29T10:02:52Z"^^xsd:dateTime .
+
+
+###  https://schemas.goodforgoodbusiness.com/common-operating-model/lite/Product
+:Product rdf:type owl:Class ;
+         <http://purl.org/dc/elements/1.1/creator> "Joe Geldart"^^xsd:string ;
+         <http://purl.org/dc/elements/1.1/date> "2018-11-29T10:02:14Z"^^xsd:dateTime .
+
+
+###  https://schemas.goodforgoodbusiness.com/common-operating-model/lite/Shipment
+:Shipment rdf:type owl:Class ;
+          rdfs:subClassOf :Activity ;
+          <http://purl.org/dc/elements/1.1/creator> "Joe Geldart"^^xsd:string ;
+          <http://purl.org/dc/elements/1.1/date> "2018-11-29T10:03:11Z"^^xsd:dateTime .
+
+
+###  https://schemas.goodforgoodbusiness.com/common-operating-model/lite/Vaccination
+:Vaccination rdf:type owl:Class ;
+             <http://purl.org/dc/elements/1.1/creator> "Joe Geldart"^^xsd:string ;
+             <http://purl.org/dc/elements/1.1/date> "2018-11-29T10:39:26Z"^^xsd:dateTime .
+
+
+###  Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi

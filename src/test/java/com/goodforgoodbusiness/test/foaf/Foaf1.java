@@ -1,11 +1,11 @@
 package com.goodforgoodbusiness.test.foaf;
 
-import static com.goodforgoodbusiness.test.foaf.Foaf.ENDPOINT_1;
+import static com.goodforgoodbusiness.test.foaf.Foaf.ENDPOINT_ONLY;
 import static com.goodforgoodbusiness.test.foaf.Foaf.newRunner;
 
 public class Foaf1 {
 	public static void main(String[] args) throws Exception {
-		var runner = newRunner(ENDPOINT_1);
+		var runner = newRunner(ENDPOINT_ONLY);
 		
 		runner.update(
 			"PREFIX foaf: <http://xmlns.com/foaf/0.1/>                    \n" + 

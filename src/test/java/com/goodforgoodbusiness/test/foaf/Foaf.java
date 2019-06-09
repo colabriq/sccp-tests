@@ -12,14 +12,16 @@ import java.net.http.HttpResponse.BodyHandlers;
 import org.apache.commons.configuration2.Configuration;
 
 import com.goodforgoodbusiness.endpoint.EndpointModule;
-import com.goodforgoodbusiness.endpoint.dht.ContainerCollector;
-import com.goodforgoodbusiness.endpoint.dht.DHTSubmitter;
-import com.goodforgoodbusiness.endpoint.rdf.RDFRunner;
+import com.goodforgoodbusiness.endpoint.EndpointModule.DataRelated;
+import com.goodforgoodbusiness.endpoint.dht.DHTContainerCollector;
+import com.goodforgoodbusiness.endpoint.dht.DHTContainerSubmitter;
+import com.goodforgoodbusiness.endpoint.processor.SparqlProcessor;
 import com.goodforgoodbusiness.endpoint.route.SparqlRoute;
 import com.goodforgoodbusiness.endpoint.route.dht.DHTSparqlRoute;
 import com.goodforgoodbusiness.shared.URIModifier;
 import com.goodforgoodbusiness.test.SparqlTester;
 import com.goodforgoodbusiness.webapp.ContentType;
+import com.google.inject.Key;
 
 public class Foaf {
 	public static String ENDPOINT_ONLY = "endpoint-only/empty.properties";
@@ -41,16 +43,16 @@ public class Foaf {
 		if (config.getBoolean("dht.enabled")) {
 			return new SparqlTester(
 				new DHTSparqlRoute(
-					injector1.getInstance(ContainerCollector.class),
-					injector1.getInstance(RDFRunner.class),
-					injector1.getInstance(DHTSubmitter.class)
+					injector1.getInstance(DHTContainerCollector.class),
+					injector1.getInstance(Key.get(SparqlProcessor.class, DataRelated.class)),
+					injector1.getInstance(DHTContainerSubmitter.class)
 				)
 			);
 		}
 		else {
 			return new SparqlTester(
 				new SparqlRoute(
-					injector1.getInstance(RDFRunner.class)
+					injector1.getInstance(Key.get(SparqlProcessor.class, DataRelated.class))
 				)
 			);
 		}
@@ -58,9 +60,9 @@ public class Foaf {
 		
 
 	
-	public static int getPort(String configFile) throws Exception {
+	public static int getDataPort(String configFile) throws Exception {
 		var config = loadConfig(Foaf.class, configFile);
-		return config.getInt("port");
+		return config.getInt("data.port");
 	}
 	
 	public static void shareKeys(String from, String to, String sub, String pre, String obj) throws Exception {

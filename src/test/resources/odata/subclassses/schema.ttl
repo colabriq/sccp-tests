@@ -1,0 +1,15 @@
+@prefix : <http://www.example.com/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Animal a owl:Class.
+
+:Chicken a owl:Class.
+
+:Chicken rdfs:subClassOf :Animal.
+
+:birthDate a owl:DatatypeProperty;
+   rdfs:domain :Animal;
+   rdfs:range xsd:dateTime.
+  

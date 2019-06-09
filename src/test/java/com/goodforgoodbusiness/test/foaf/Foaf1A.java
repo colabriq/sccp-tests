@@ -1,7 +1,7 @@
 package com.goodforgoodbusiness.test.foaf;
 
 import static com.goodforgoodbusiness.test.foaf.Foaf.ENDPOINT_1;
-import static com.goodforgoodbusiness.test.foaf.Foaf.getPort;
+import static com.goodforgoodbusiness.test.foaf.Foaf.getDataPort;
 import static com.goodforgoodbusiness.test.foaf.Foaf.newRunner;
 
 import com.goodforgoodbusiness.utils.RDFClient;
@@ -10,7 +10,7 @@ public class Foaf1A {
 	public static void main(String[] args) throws Exception {
 		newRunner(ENDPOINT_1);
 		
-		var client = new RDFClient(getPort(ENDPOINT_1));
+		var client = new RDFClient(getDataPort(ENDPOINT_1));
 		
 		var result1 = client.update(
 			"PREFIX foaf: <http://xmlns.com/foaf/0.1/>                    \n" + 
