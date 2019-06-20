@@ -1,4 +1,4 @@
-package com.goodforgoodbusiness.test.beef;
+package com.goodforgoodbusiness.test.berlin;
 
 import static com.goodforgoodbusiness.shared.ConfigLoader.loadConfig;
 
@@ -7,10 +7,10 @@ import com.goodforgoodbusiness.shared.LogConfigurer;
 import com.goodforgoodbusiness.test.module.EngineTestRunner;
 
 /** launches an endpoint that loads the beef turtle files directly */
-public class BeefLocalEndpoint {
+public class BerlinLocalEndpoint {
 	public static void main(String[] args) throws Exception {
-		LogConfigurer.init(BeefLocalEndpoint.class, "log4j.info.properties");		
-		var config = loadConfig(EngineTestRunner.class, "beef/local.properties");
+		LogConfigurer.init(BerlinLocalEndpoint.class, "log4j.debug.properties");		
+		var config = loadConfig(EngineTestRunner.class, "berlin/local.properties");
 		new EndpointModule(config).start();
 	}
 }

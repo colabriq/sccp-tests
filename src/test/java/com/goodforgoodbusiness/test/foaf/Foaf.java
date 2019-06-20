@@ -12,8 +12,8 @@ import java.net.http.HttpResponse.BodyHandlers;
 import org.apache.commons.configuration2.Configuration;
 
 import com.goodforgoodbusiness.endpoint.EndpointModule;
-import com.goodforgoodbusiness.endpoint.dht.DHTContainerCollector;
-import com.goodforgoodbusiness.endpoint.dht.DHTContainerSubmitter;
+import com.goodforgoodbusiness.endpoint.graph.container.ContainerCollector;
+import com.goodforgoodbusiness.endpoint.graph.dht.DHTContainerSubmitter;
 import com.goodforgoodbusiness.endpoint.processor.SparqlProcessor;
 import com.goodforgoodbusiness.endpoint.route.SparqlRoute;
 import com.goodforgoodbusiness.endpoint.route.dht.DHTSparqlRoute;
@@ -42,7 +42,7 @@ public class Foaf {
 		if (config.getBoolean("dht.enabled")) {
 			return new SparqlTester(
 				new DHTSparqlRoute(
-					injector1.getInstance(DHTContainerCollector.class),
+					injector1.getInstance(ContainerCollector.class),
 					injector1.getInstance(Key.get(SparqlProcessor.class)),
 					injector1.getInstance(DHTContainerSubmitter.class)
 				)
@@ -51,6 +51,7 @@ public class Foaf {
 		else {
 			return new SparqlTester(
 				new SparqlRoute(
+					injector1.getInstance(ContainerCollector.class),
 					injector1.getInstance(Key.get(SparqlProcessor.class))
 				)
 			);
