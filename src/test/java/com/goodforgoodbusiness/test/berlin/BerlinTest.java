@@ -2,7 +2,6 @@ package com.goodforgoodbusiness.test.berlin;
 
 import static com.goodforgoodbusiness.shared.ConfigLoader.loadConfig;
 
-import java.io.File;
 import java.net.URI;
 
 import com.goodforgoodbusiness.endpoint.EndpointModule;
@@ -11,7 +10,6 @@ import com.goodforgoodbusiness.shared.LogConfigurer;
 import com.goodforgoodbusiness.shared.TimingRecorder;
 import com.goodforgoodbusiness.test.module.EndpointTestRunner;
 import com.goodforgoodbusiness.test.module.EngineTestRunner;
-import com.goodforgoodbusiness.utils.ingest.TurtleUploader;
 
 /** launches an endpoint that loads the beef turtle files directly */
 public class BerlinTest {
