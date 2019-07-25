@@ -1,7 +1,7 @@
 package com.goodforgoodbusiness.test;
 
-import static com.goodforgoodbusiness.webapp.ContentType.sparql_query;
-import static com.goodforgoodbusiness.webapp.ContentType.sparql_update;
+import static com.goodforgoodbusiness.webapp.ContentType.SPARQL_QUERY;
+import static com.goodforgoodbusiness.webapp.ContentType.SPARQL_UPDATE;
 import static java.util.stream.Collectors.joining;
 import static org.apache.commons.io.FilenameUtils.getExtension;
 
@@ -19,7 +19,7 @@ import org.apache.http.entity.ContentType;
 import org.apache.http.entity.mime.MultipartEntityBuilder;
 import org.apache.http.entity.mime.content.FileBody;
 
-import com.goodforgoodbusiness.endpoint.MIMEMappings;
+import com.goodforgoodbusiness.endpoint.webapp.MIMEMappings;
 import com.goodforgoodbusiness.model.Link;
 import com.goodforgoodbusiness.shared.URIModifier;
 
@@ -39,7 +39,7 @@ public class HttpTest {
 		
 		var request = HttpRequest
 			.newBuilder(URIModifier.from(endpoint).appendPath("sparql").build())
-			.header("Content-Type", sparql_query.getContentTypeString())
+			.header("Content-Type", SPARQL_QUERY.getContentTypeString())
 			.POST(BodyPublishers.ofString(query))
 			.build();
 		
@@ -56,7 +56,7 @@ public class HttpTest {
 		
 		var request = HttpRequest
 			.newBuilder(URIModifier.from(endpoint).appendPath("sparql").build())
-			.header("Content-Type", sparql_update.getContentTypeString())
+			.header("Content-Type", SPARQL_UPDATE.getContentTypeString())
 			.POST(BodyPublishers.ofString(update))
 			.build();
 		
