@@ -32,7 +32,7 @@ public class ShareAcceptTest {
 
 		var request = HttpRequest
 			.newBuilder(new URI("http://localhost:8080/share"))
-			.header("Content-Type", ContentType.json.getContentTypeString())
+			.header("Content-Type", ContentType.JSON.getContentTypeString())
 			.POST(BodyPublishers.ofString(json))
 			.build();
 		

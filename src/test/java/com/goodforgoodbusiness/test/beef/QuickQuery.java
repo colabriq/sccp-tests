@@ -1,7 +1,7 @@
 package com.goodforgoodbusiness.test.beef;
 
 import com.goodforgoodbusiness.utils.RDFClient;
- 
+
 public class QuickQuery {
 	public static void main(String[] args) throws Exception {
 		var result = new RDFClient(8081).query("SELECT ?p ?o WHERE { ?s ?p ?o }");
