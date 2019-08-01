@@ -1,12 +1,12 @@
-package com.goodforgoodbusiness.test.rpc;
+package com.colabriq.test.rpc;
 
 import java.util.Random;
 import java.util.stream.Stream;
 
-import com.goodforgoodbusiness.endpoint.dht.backend.impl.DHTRPCBackend;
-import com.goodforgoodbusiness.rpclib.client.RPCWebClientCreator;
-import com.goodforgoodbusiness.shared.LogConfigurer;
-import com.goodforgoodbusiness.webapp.VertxProvider;
+import com.colabriq.endpoint.dht.backend.impl.DHTRPCBackend;
+import com.colabriq.rpclib.client.RPCWebClientCreator;
+import com.colabriq.shared.LogConfigurer;
+import com.colabriq.webapp.VertxProvider;
 
 import io.vertx.core.Future;
 

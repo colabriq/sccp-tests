@@ -1,4 +1,4 @@
-package com.goodforgoodbusiness.test.beef;
+package com.colabriq.test.beef;
 
 import java.net.URI;
 import java.net.URISyntaxException;

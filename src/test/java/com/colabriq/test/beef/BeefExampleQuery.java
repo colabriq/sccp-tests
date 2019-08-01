@@ -1,6 +1,6 @@
-package com.goodforgoodbusiness.test.beef;
+package com.colabriq.test.beef;
 
-import com.goodforgoodbusiness.utils.RDFClient;
+import com.colabriq.utils.RDFClient;
 
 public class BeefExampleQuery {
 	private static final String COW_QUERY = 

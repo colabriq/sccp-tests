@@ -1,10 +1,10 @@
-package com.goodforgoodbusiness.test.berlin;
+package com.colabriq.test.berlin;
 
-import static com.goodforgoodbusiness.shared.ConfigLoader.loadConfig;
+import static com.colabriq.shared.ConfigLoader.loadConfig;
 
-import com.goodforgoodbusiness.endpoint.EndpointModule;
-import com.goodforgoodbusiness.shared.LogConfigurer;
-import com.goodforgoodbusiness.shared.TimingRecorder;
+import com.colabriq.endpoint.EndpointModule;
+import com.colabriq.shared.LogConfigurer;
+import com.colabriq.shared.TimingRecorder;
 
 /** launches an endpoint that loads the beef turtle files directly */
 public class BerlinLocalEndpoint {

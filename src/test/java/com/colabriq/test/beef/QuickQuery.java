@@ -1,6 +1,6 @@
-package com.goodforgoodbusiness.test.beef;
+package com.colabriq.test.beef;
 
-import com.goodforgoodbusiness.utils.RDFClient;
+import com.colabriq.utils.RDFClient;
 
 public class QuickQuery {
 	public static void main(String[] args) throws Exception {

@@ -1,9 +1,9 @@
-package com.goodforgoodbusiness.test.beef;
+package com.colabriq.test.beef;
 
-import static com.goodforgoodbusiness.shared.ConfigLoader.loadConfig;
+import static com.colabriq.shared.ConfigLoader.loadConfig;
 
-import com.goodforgoodbusiness.engine.EngineModule;
-import com.goodforgoodbusiness.shared.LogConfigurer;
+import com.colabriq.engine.EngineModule;
+import com.colabriq.shared.LogConfigurer;
 
 public class BeefEngine {
 	public static void main(String[] args) throws Exception {

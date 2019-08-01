@@ -1,7 +1,7 @@
-package com.goodforgoodbusiness.test;
+package com.colabriq.test;
 
-import static com.goodforgoodbusiness.webapp.ContentType.SPARQL_QUERY;
-import static com.goodforgoodbusiness.webapp.ContentType.SPARQL_UPDATE;
+import static com.colabriq.webapp.ContentType.SPARQL_QUERY;
+import static com.colabriq.webapp.ContentType.SPARQL_UPDATE;
 import static java.util.stream.Collectors.joining;
 import static org.apache.commons.io.FilenameUtils.getExtension;
 
@@ -19,9 +19,9 @@ import org.apache.http.entity.ContentType;
 import org.apache.http.entity.mime.MultipartEntityBuilder;
 import org.apache.http.entity.mime.content.FileBody;
 
-import com.goodforgoodbusiness.endpoint.webapp.MIMEMappings;
-import com.goodforgoodbusiness.model.Link;
-import com.goodforgoodbusiness.shared.URIModifier;
+import com.colabriq.endpoint.webapp.MIMEMappings;
+import com.colabriq.model.Link;
+import com.colabriq.shared.URIModifier;
 
 public class HttpTest {
 	private final URI endpoint;

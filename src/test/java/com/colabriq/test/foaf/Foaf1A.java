@@ -1,6 +1,6 @@
-package com.goodforgoodbusiness.test.foaf;
+package com.colabriq.test.foaf;
 
-import com.goodforgoodbusiness.utils.RDFClient;
+import com.colabriq.utils.RDFClient;
 
 public class Foaf1A {
 	public static void main(String[] args) throws Exception {		

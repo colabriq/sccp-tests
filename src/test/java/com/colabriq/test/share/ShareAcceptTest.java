@@ -1,4 +1,4 @@
-package com.goodforgoodbusiness.test.share;
+package com.colabriq.test.share;
 
 import java.net.URI;
 import java.net.http.HttpClient;
@@ -6,7 +6,7 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpRequest.BodyPublishers;
 import java.net.http.HttpResponse.BodyHandlers;
 
-import com.goodforgoodbusiness.webapp.ContentType;
+import com.colabriq.webapp.ContentType;
 
 public class ShareAcceptTest {
 	public static void main(String[] args) throws Exception {

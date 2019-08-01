@@ -1,4 +1,4 @@
-package com.goodforgoodbusiness.test;
+package com.colabriq.test;
 
 public class TestUpload {
 

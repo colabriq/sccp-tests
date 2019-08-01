@@ -1,10 +1,10 @@
-package com.goodforgoodbusiness.test.northwind;
+package com.colabriq.test.northwind;
 
-import static com.goodforgoodbusiness.shared.ConfigLoader.loadConfig;
+import static com.colabriq.shared.ConfigLoader.loadConfig;
 
-import com.goodforgoodbusiness.endpoint.EndpointModule;
-import com.goodforgoodbusiness.engine.EngineModule;
-import com.goodforgoodbusiness.shared.LogConfigurer;
+import com.colabriq.endpoint.EndpointModule;
+import com.colabriq.engine.EngineModule;
+import com.colabriq.shared.LogConfigurer;
 
 /** launches an endpoint that loads the beef turtle files directly */
 public class NorthwindRunner {

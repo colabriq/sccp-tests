@@ -1,6 +1,6 @@
-package com.goodforgoodbusiness.test.module;
+package com.colabriq.test.module;
 
-import com.goodforgoodbusiness.engine.EngineModule;
+import com.colabriq.engine.EngineModule;
 
 public class EngineTestRunner {
 	public static void main(String[] args) throws Exception {
