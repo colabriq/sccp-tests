@@ -2,7 +2,6 @@ package com.colabriq.test.beef;
 
 import static com.colabriq.shared.ConfigLoader.loadConfig;
 
-import com.colabriq.endpoint.EndpointModule;
 import com.colabriq.engine.EngineModule;
 import com.colabriq.shared.LogConfigurer;
 
